@@ -1,0 +1,55 @@
+.bg-img{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.container{
+    text-align: center;
+}
+#head-line{
+    color: rgba(255, 255, 255, 0.71);
+}
+#downloat-btn{
+    background-color: rgba(244, 3, 3, 0.602);
+    margin: 20px;
+    padding: 10px;
+}
+span{
+ margin: 15px;
+ padding: 15px;
+}
+
+#donet{
+ text-align: center;
+}
+
+span{
+    
+}
+
+#donet-plan{
+    text-align: center;
+}
+
+.donate-list{
+    text-align: center;
+    width: auto;
+    height: 33.33%;
+    background-color: gray;
+}
+
+.side-ber-one{
+    width: 500px;
+    height: auto;
+    float: left;
+}
+.side-ber-img1{
+    width: 500px;
+    height: 500px;
+    float: right;
+}
+
+
+
+
+
