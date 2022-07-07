@@ -1,72 +1,107 @@
-.bg-img{
+.bg-img {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
     padding-bottom: 100px;
-    
+
 }
-.container{
+
+.container {
     text-align: center;
     padding-top: 100px;
 }
-#head-line{
+
+#head-line {
     color: rgba(255, 255, 255, 0.71);
 }
-#downloat-btn{
+
+#downloat-btn {
     background-color: rgba(244, 3, 3, 0.602);
     margin: 20px;
     padding: 10px;
 }
-span{
- margin: 15px;
- padding: 15px;
+
+span {
+    margin: 15px;
+    padding: 15px;
 }
 
-#donet{
- text-align: center;
+#donet {
+    text-align: center;
 }
 
-.donate-list{
+.donate-list {
     background-color: rgb(207, 181, 181);
     width: 33.3%;
-    
-    
+
+
 }
 
-#p1{
-    float: left;
+.top-side {
+    display: flex;
+    margin-top: 100px;
 }
 
-#p2{
-    float: right;
+.side-half {
+    width: 40%;
 }
 
-#p3{
-    float: right;
+.side-ber-img1 img {
+    width: 100%;
+    margin-left: 100px;
+}
+
+.list-donation {
+    display: flex;
+}
+
+.donate-list {
+    margin-left: 20px;
+    padding: 16px;
 }
 
 span#\35 tk {
     border: 2px solid red;
 }
 
-.donet-plan{
-
+#donet-plan {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
 }
 
-.updat{
-    text-align: center;;
+.updat {
+    text-align: center;
+    ;
     padding: 10px;
     margin: 10px;
 }
 
-.contac{
+.update-section {
+    margin-bottom: 50px;
+}
+
+.contac {
     background-color: gray;
-    height: 100px;
-    width: 500px;
+    width: 650px;
+    margin: 0 auto;
+    padding: 60px 90px;
+    display: flex;
+    justify-content: center;
+}
 
-    }
+.contac input,
+.contac button {
+    padding: 15px 63px 15px 10px;
+    border: none;
+    outline: none;
+}
 
-footer{
+.contac button {
+    background: #FF5959;
+}
+
+footer {
     background-color: rgba(0, 0, 0, 0.92);
     text-align: center;
     color: gray;
