@@ -2,9 +2,12 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
+    padding-bottom: 100px;
+    
 }
 .container{
     text-align: center;
+    padding-top: 100px;
 }
 #head-line{
     color: rgba(255, 255, 255, 0.71);
@@ -23,33 +26,50 @@ span{
  text-align: center;
 }
 
-span{
+.donate-list{
+    background-color: rgb(207, 181, 181);
+    width: 33.3%;
+    
     
 }
 
-#donet-plan{
-    text-align: center;
-}
-
-.donate-list{
-    text-align: center;
-    width: auto;
-    height: 33.33%;
-    background-color: gray;
-}
-
-.side-ber-one{
-    width: 500px;
-    height: auto;
+#p1{
     float: left;
 }
-.side-ber-img1{
-    width: 500px;
-    height: 500px;
+
+#p2{
     float: right;
 }
 
+#p3{
+    float: right;
+}
 
+span#\35 tk {
+    border: 2px solid red;
+}
 
+.donet-plan{
 
+}
 
+.updat{
+    text-align: center;;
+    padding: 10px;
+    margin: 10px;
+}
+
+.contac{
+    background-color: gray;
+    height: 100px;
+    width: 500px;
+
+    }
+
+footer{
+    background-color: rgba(0, 0, 0, 0.92);
+    text-align: center;
+    color: gray;
+    margin: 5px;
+    padding: 5px;
+}
