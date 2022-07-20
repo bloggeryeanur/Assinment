@@ -1,110 +1,89 @@
-.bg-img {
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%;
-    padding-bottom: 100px;
+/* Header section Start*/
 
-}
-
-.container {
-    text-align: center;
-    padding-top: 100px;
-}
-
-#head-line {
-    color: rgba(255, 255, 255, 0.71);
-}
-
-#downloat-btn {
-    background-color: rgba(244, 3, 3, 0.602);
-    margin: 20px;
-    padding: 10px;
-}
-
-span {
-    margin: 15px;
-    padding: 15px;
-}
-
-#donet {
-    text-align: center;
-}
-
-.donate-list {
-    background-color: rgb(207, 181, 181);
-    width: 33.3%;
-
-
-}
-
-.top-side {
+.main{
+    background-color: black;
+    color: white;
     display: flex;
-    margin-top: 100px;
-}
+    border-radius: 20px;
+    padding: 11px;
 
-.side-half {
-    width: 40%;
 }
+.contant{
+    padding-left: 20px;
+    width: 50%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
-.side-ber-img1 img {
-    width: 100%;
-    margin-left: 100px;
 }
+.img-one{
+    
+ width: 50%;
+}
+.btn{
+    background-color: red;
+    padding: 11px;
+    border-radius: 11px;
+    color: white;
+}
+/* Header section End*/
 
-.list-donation {
+/* Block section start */
+.side{
     display: flex;
+    margin-top: 11px;
+    justify-content: space-between;
+}
+.block{
+    height: 300px;
+    width: 25%;
+    padding-left: 7px;
 }
 
-.donate-list {
-    margin-left: 20px;
-    padding: 16px;
-}
-
-span#\35 tk {
-    border: 2px solid red;
-}
-
-#donet-plan {
-    text-align: center;
-    margin-top: 60px;
-    margin-bottom: 30px;
-}
-
-.updat {
-    text-align: center;
-    ;
-    padding: 10px;
-    margin: 10px;
-}
-
-.update-section {
-    margin-bottom: 50px;
-}
-
-.contac {
-    background-color: gray;
-    width: 650px;
-    margin: 0 auto;
-    padding: 60px 90px;
-    display: flex;
+#link-all{
+    background-color: rgb(36, 26, 26);
     justify-content: center;
+    
+}
+#link-all ul{
+   list-style-type: none;
+   
+}
+#link-all ul li a{
+    color: black;
+    text-decoration: none;
+    margin: 22px;
+    background-color: wheat;
+
 }
 
-.contac input,
-.contac button {
-    padding: 15px 63px 15px 10px;
-    border: none;
-    outline: none;
-}
 
-.contac button {
-    background: #FF5959;
-}
 
-footer {
-    background-color: rgba(0, 0, 0, 0.92);
+
+
+
+
+
+
+   /* footer section */
+footer{
+    background-color: black;
+    color: rgb(189, 165, 165);
+    height: 200px;
+}
+footer h1{
     text-align: center;
-    color: gray;
-    margin: 5px;
+}
+footer ul{
+    list-style-type: none;
+    text-align: center;
+    
+}
+
+footer ul li{
+    display: inline;
+}
+footer ul li a{
+    background-color: black;
+    color: rgb(200, 130, 130);
+    text-decoration: none;
     padding: 5px;
 }
